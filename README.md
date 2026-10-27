@@ -30,6 +30,7 @@ Strukturierte Sammlung zum **Contact and Channel Approach (C&C²-A, C&C²-Ansatz
 | [`03_anwendungen/evidenz_und_lehre.md`](03_anwendungen/evidenz_und_lehre.md) | Empirische Studien, Gegenbefunde, Lehre |
 | [`04_einordnung/vergleich_ansaetze.md`](04_einordnung/vergleich_ansaetze.md) | Vergleich mit Pahl/Beitz, FBS, SAPPhIRE, CPM u. a. |
 | [`05_tool_grundlagen/erkenntnisse_fuer_tool.md`](05_tool_grundlagen/erkenntnisse_fuer_tool.md) | Abgeleitete Anforderungen, Datenmodell-Skizze, Leseliste |
+| [`05_tool_grundlagen/konzept_diskussion_v0.md`](05_tool_grundlagen/konzept_diskussion_v0.md) | Tool-Konzept v0 als Diskussionsgrundlage (Module, Datenmodell, Abläufe, Trade-offs, Entscheidungspunkte) |
 | [`literatur/quellen.csv`](literatur/quellen.csv) | **Quellendatenbank** (Single Source of Truth, `;`-getrennt, Excel-tauglich) |
 | [`literatur/literaturverzeichnis.md`](literatur/literaturverzeichnis.md) | Literaturverzeichnis nach Thema (generiert) |
 | [`literatur/beschaffungsliste.md`](literatur/beschaffungsliste.md) | **To-do-Liste Volltexte:** KIT-Zugang und Open Access (generiert) |
