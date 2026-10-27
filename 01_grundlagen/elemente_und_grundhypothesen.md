@@ -43,7 +43,7 @@ Die Grundhypothesen sind die **Anwendungsregeln** für die Modellelemente (IPEK-
 | GH 2 | Function needs a minimum number of elements | Eine Funktion erfordert mindestens zwei WFP, die durch eine LSS verbunden sind und durch jeweils einen Connector in die Umgebung eingebunden sind | A function requires at least two WSP connected by a CSS, each embedded in the environment by a connector |
 | GH 3 | Fractal modelling | Jedes Teilsystem kann mit WFP, LSS und C auf verschiedenen Abstraktions- und Detaillierungsstufen beschrieben werden. Dazu werden Anzahl, Anordnung und/oder Eigenschaften der Grundelemente variiert | Any subsystem can be described with WSP, CSS and C at different levels of abstraction and detail |
 
-**Historischer Hinweis:** In der C&CM-Phase (2002 bis ca. 2009) waren die Hypothesen ohne Connector formuliert. Der Connector kam mit dem C&C²-Ansatz hinzu (genauer Zeitpunkt unbestätigt, prüfen in `Alink2010` und `Albers2011a`).
+**Historischer Hinweis:** In der C&CM-Phase (2002 bis ca. 2009) waren die Hypothesen ohne Connector formuliert. Der Connector kam mit dem C&C²-Ansatz hinzu (genauer Zeitpunkt unbestätigt, prüfen in `Alink2010` und `Matthiesen2012`).
 
 ## 3. Minimales Funktionsmodell (GH 2 als Schema)
 

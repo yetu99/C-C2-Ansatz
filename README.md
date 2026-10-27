@@ -2,7 +2,7 @@
 
 Strukturierte Sammlung zum **Contact and Channel Approach (C&C²-A, C&C²-Ansatz)** des IPEK am KIT (Albers, Matthiesen). Ziel ist die Informationsbasis für ein späteres anwendungsbezogenes Tool, mit dem Ingenieurinnen und Ingenieure Gestalt-Funktion-Zusammenhänge schnell modellieren können.
 
-**Stand:** Oktober 2026 · **Quellen:** 81 erfasst · **Volltexte im Repo:** 1
+**Stand:** 27.10.2026 · **Quellen:** 85 erfasst · **Volltexte:** 12 im Repo (offene Lizenz), 21 lokal in `Wissen/C&C2-Ansatz`
 
 ## Der Ansatz in 60 Sekunden
 
@@ -43,17 +43,19 @@ Strukturierte Sammlung zum **Contact and Channel Approach (C&C²-A, C&C²-Ansatz
 # 1. Quelle ergänzen oder Status ändern: literatur/quellen.csv bearbeiten
 # 2. Abgeleitete Dateien neu erzeugen
 python3 tools/build_literatur.py
-# 3. PDF ablegen als literatur/volltexte/<ID>.pdf und Status auf "vorhanden" setzen
+# 3. PDF mit offener Lizenz (CC) als literatur/volltexte/<ID>.pdf ablegen, Status "vorhanden"
+#    Verlags-PDF nur lokal in Wissen/C&C2-Ansatz ("<ID> - Autor - Kurztitel (Quelle, Jahr).pdf"), Status "lokal"
 ```
 
-**Spalten in `quellen.csv`:** `id`, `jahr`, `autoren` (mit `;` getrennt), `titel`, `quelle`, `typ`, `sprache`, `doi`, `url`, `oa` (ja/nein/unklar), `thema`, `prio` (A/B/C), `konfidenz` (hoch/mittel/niedrig), `status` (vorhanden/oa_download/kit_zugang/pruefen/web), `notiz`.
+**Spalten in `quellen.csv`:** `id`, `jahr`, `autoren` (mit `;` getrennt), `titel`, `quelle`, `typ`, `sprache`, `doi`, `url`, `oa` (ja/nein/unklar), `thema`, `prio` (A/B/C), `konfidenz` (hoch/mittel/niedrig), `status` (vorhanden = PDF im Repo / lokal = PDF nur lokal wegen Lizenz / oa_download / kit_zugang / pruefen / web), `notiz`.
 
 ## Methodik der Recherche
 
 - Websuche über Verlags- und Repository-Einträge (KITopen, Design Society, Cambridge Core, Elsevier, Springer, T&F, Open Research Online, TUprints).
 - Drei Recherchestränge: Grundlagen, Methoden/Digitalisierung, Anwendungen/Evaluation.
 - Keine DOI erfunden. Unsichere Angaben sind mit Konfidenz `mittel`/`niedrig` oder Status `pruefen` markiert.
-- **Einschränkung:** Direkte PDF-Downloads waren in der Cloud-Umgebung durch die Netzwerk-Policy blockiert. Inhalte stammen daher aus Abstracts und Repository-Metadaten, ausgenommen das vollständig gelesene KIT SWP 58.
+- **Volltexte:** Seit 27.10.2026 sind 33 Volltexte ausgewertet (Zusammenfassungen in `literatur/zusammenfassungen/`). Bibliografische Angaben wurden gegen die PDFs geprüft. Was im PDF fehlt, bleibt mit Konfidenz `mittel`/`niedrig` bzw. Status `pruefen` markiert.
+- **Lizenz:** Das Repo ist öffentlich. Verlags-PDFs ohne offene Lizenz liegen deshalb nur lokal.
 
 ## Nächste Schritte
 

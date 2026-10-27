@@ -12,7 +12,7 @@
 | 2008 | Analysekompendium im Industrieprojekt, Problemlösen, Dissertation Ohmer (Synthese) | `Albers2008a`, `Albers2008b`, `Ohmer2008` |
 | 2009 | Kooperation KIT / Cambridge EDC: C&CM in früher Gestaltung, Software-Prototyp | `Albers2009` |
 | 2010 | Dissertation Alink: Funktionsbegriff, Name "C&C-Ansatz". Teile- und Funktionsbibliotheken | `Alink2010`, `Albers2010` |
-| 2011 | Modellierung mehrerer logischer Zustände, SysML-Integration, Software-Tool (JMD) | `Albers2011a`, `Albers2011b`, `Albers2011c` |
+| 2011 | Modellierung mehrerer logischer Zustände, SysML-Integration, Software-Tool (JMD) | `Matthiesen2012`, `Albers2011b`, `Albers2011c` |
 | 2013 | Dissertation Thau: Heuristiken, Schreibweise "C&C²-Ansatz". SysML-Profil (CSER) | `Thau2013`, `Albers2013` |
 | 2014 | Kapitel in "An Anthology of Theories and Models of Design" (kanonische Referenz) | `Albers2014` |
 | 2017 | Konstruktionshypothesen, analyseKIT | `Matthiesen2017a`, `Matthiesen2017b` |

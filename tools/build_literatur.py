@@ -24,6 +24,7 @@ THEMEN = {
 }
 STATUS = {
     "vorhanden": "PDF im Repo",
+    "lokal": "PDF lokal (Wissen/C&C2-Ansatz)",
     "oa_download": "frei verfügbar",
     "kit_zugang": "KIT-Zugang nötig",
     "pruefen": "Angaben prüfen",
@@ -33,6 +34,7 @@ BIBTYPE = {
     "journal": "article",
     "conference": "inproceedings",
     "chapter": "incollection",
+    "book": "book",
     "dissertation": "phdthesis",
     "thesis": "mastersthesis",
     "working_paper": "techreport",
@@ -118,8 +120,9 @@ def build_beschaffung(rows):
         "> Generiert aus [`quellen.csv`](quellen.csv). Nach dem Download: PDF unter dem Zieldateinamen in "
         "[`volltexte/`](volltexte/) ablegen und in `quellen.csv` den Status auf `vorhanden` setzen.",
         "",
-        "**Warum diese Liste:** Die Cloud-Umgebung dieser Session blockiert direkte Downloads (Netzwerk-Policy, "
-        "HTTP 403 auf designsociety.org, cambridge.org, KITopen u. a.). Deshalb liegen die PDFs noch nicht im Repo.",
+        "**Stand:** PDFs mit offener Lizenz (CC) liegen in [`volltexte/`](volltexte/) (Status `vorhanden`). "
+        "Verlags-PDFs ohne offene Lizenz liegen nur lokal in `Wissen/C&C2-Ansatz` (Status `lokal`), weil das Repo "
+        "öffentlich ist. Beide Gruppen erscheinen hier nicht mehr.",
         "",
         "## Teil 1: Über KIT-Account beschaffen",
         "",
@@ -171,6 +174,8 @@ def build_bib(rows):
             fields["journal"] = r["quelle"]
         elif t in ("inproceedings", "incollection"):
             fields["booktitle"] = r["quelle"]
+        elif t == "book":
+            fields["publisher"] = r["quelle"]
         elif t in ("phdthesis", "mastersthesis", "techreport"):
             fields["institution" if t == "techreport" else "school"] = r["quelle"]
         if r["doi"] and not r["doi"].startswith("http"):
