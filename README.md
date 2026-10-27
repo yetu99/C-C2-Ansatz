@@ -31,6 +31,7 @@ Strukturierte Sammlung zum **Contact and Channel Approach (C&C²-A, C&C²-Ansatz
 | [`04_einordnung/vergleich_ansaetze.md`](04_einordnung/vergleich_ansaetze.md) | Vergleich mit Pahl/Beitz, FBS, SAPPhIRE, CPM u. a. |
 | [`05_tool_grundlagen/erkenntnisse_fuer_tool.md`](05_tool_grundlagen/erkenntnisse_fuer_tool.md) | Abgeleitete Anforderungen, Datenmodell-Skizze, Leseliste |
 | [`05_tool_grundlagen/konzept_diskussion_v0.md`](05_tool_grundlagen/konzept_diskussion_v0.md) | Tool-Konzept v0 als Diskussionsgrundlage (Module, Datenmodell, Abläufe, Trade-offs, Entscheidungspunkte) |
+| [`05_tool_grundlagen/konzept_v1.md`](05_tool_grundlagen/konzept_v1.md) | Tool-Konzept v1 mit Entscheidungen E1 bis E7, Farbcode, Systemgrenze, fraktale Detail-Tabs, Supabase, Ausbaustufen |
 | [`literatur/quellen.csv`](literatur/quellen.csv) | **Quellendatenbank** (Single Source of Truth, `;`-getrennt, Excel-tauglich) |
 | [`literatur/literaturverzeichnis.md`](literatur/literaturverzeichnis.md) | Literaturverzeichnis nach Thema (generiert) |
 | [`literatur/beschaffungsliste.md`](literatur/beschaffungsliste.md) | **To-do-Liste Volltexte:** KIT-Zugang und Open Access (generiert) |
@@ -63,4 +64,4 @@ python3 tools/build_literatur.py
 
 1. Fehlende Prio-A-Quellen beschaffen: `Ohmer2008` (Synthese), `Troester2023b` (Functional Delimitation). Danach Prio B laut [Beschaffungsliste](literatur/beschaffungsliste.md).
 2. Restliche offene Punkte in den Themenseiten (Checkboxen) abarbeiten.
-3. Tool-Konzept auf Basis von [`05_tool_grundlagen`](05_tool_grundlagen/erkenntnisse_fuer_tool.md) (Phase 3, im Dialog).
+3. Prototyp v0.1 nach [`konzept_v1.md`](05_tool_grundlagen/konzept_v1.md) spezifizieren und bauen.
