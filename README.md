@@ -2,7 +2,7 @@
 
 Strukturierte Sammlung zum **Contact and Channel Approach (C&C²-A, C&C²-Ansatz)** des IPEK am KIT (Albers, Matthiesen). Ziel ist die Informationsbasis für ein späteres anwendungsbezogenes Tool, mit dem Ingenieurinnen und Ingenieure Gestalt-Funktion-Zusammenhänge schnell modellieren können.
 
-**Stand:** 27.10.2026 · **Quellen:** 85 erfasst · **Volltexte:** 12 im Repo (offene Lizenz), 21 lokal in `Wissen/C&C2-Ansatz`
+**Stand:** 27.10.2026 · **Quellen:** 86 erfasst · **Volltexte:** 12 im Repo (offene Lizenz), 21 lokal in `Wissen/C&C2-Ansatz`
 
 ## Der Ansatz in 60 Sekunden
 
@@ -13,8 +13,9 @@ Strukturierte Sammlung zum **Contact and Channel Approach (C&C²-A, C&C²-Ansatz
   2. Funktion braucht ≥ 2 WFP, verbunden durch eine LSS, eingebunden über Connectoren.
   3. Fraktal: jedes Teilsystem auf jeder Detailstufe mit denselben Elementen beschreibbar.
 - **Dynamik:** Zustände und Sequenzmodelle.
-- **Bester Nachweis:** Fehler- und Ursachenanalyse an bestehenden Systemen.
-- **Bekannte Schwächen:** Synthese wenig quantitativ, Benennung und Systemabgrenzung für Novizen schwierig, kein verfügbares Software-Tool.
+- **Bester Nachweis:** Fehler- und Ursachenanalyse an bestehenden Systemen, Systemverständnis auf Systemebene.
+- **Bekannte Schwächen:** Synthese wenig quantitativ (Synthesis Gap), keine Datenstruktur, Benennung und Systemabgrenzung für Novizen schwierig, kein verfügbares Software-Tool, Fluid- und Energiesysteme kaum ausgearbeitet.
+- **Weiterentwicklung (Extended C&C², ab 2023):** Designation Guide, Functional Delimitation, Fünf-Schritte-Prozessmodell mit Templates.
 
 ## Struktur
 
@@ -59,7 +60,6 @@ python3 tools/build_literatur.py
 
 ## Nächste Schritte
 
-1. Prio-A-Quellen laut [Beschaffungsliste](literatur/beschaffungsliste.md) besorgen (6 über KIT, Rest Open Access).
-2. Zusammenfassungen je Prio-A-Quelle nach Vorlage [`Matthiesen2018_SWP58.md`](literatur/zusammenfassungen/Matthiesen2018_SWP58.md) anlegen.
-3. Offene Punkte in den Themenseiten (Checkboxen) abarbeiten.
-4. Danach Tool-Konzept auf Basis von [`05_tool_grundlagen`](05_tool_grundlagen/erkenntnisse_fuer_tool.md).
+1. Fehlende Prio-A-Quellen beschaffen: `Ohmer2008` (Synthese), `Troester2023b` (Functional Delimitation). Danach Prio B laut [Beschaffungsliste](literatur/beschaffungsliste.md).
+2. Restliche offene Punkte in den Themenseiten (Checkboxen) abarbeiten.
+3. Tool-Konzept auf Basis von [`05_tool_grundlagen`](05_tool_grundlagen/erkenntnisse_fuer_tool.md) (Phase 3, im Dialog).

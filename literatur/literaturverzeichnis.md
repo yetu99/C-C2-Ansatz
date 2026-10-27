@@ -2,13 +2,13 @@
 
 > Generiert aus [`quellen.csv`](quellen.csv) mit `python3 tools/build_literatur.py`. Nicht von Hand editieren.
 
-**85 Quellen.** Priorität: **A** = Pflichtlektüre, **B** = vertiefend, **C** = Kontext.
+**86 Quellen.** Priorität: **A** = Pflichtlektüre, **B** = vertiefend, **C** = Kontext.
 Konfidenz: **hoch** = bibliografische Angaben über Verlags- oder Repository-Eintrag bestätigt, **mittel** = teilweise bestätigt, **niedrig** = nur sekundär zitiert.
 
 | Thema | Anzahl |
 |---|---|
 | [Grundlagen und Theorie](#grundlagen-und-theorie) | 14 |
-| [Methodik, Modellbildung, Erweiterungen](#methodik-modellbildung-erweiterungen) | 24 |
+| [Methodik, Modellbildung, Erweiterungen](#methodik-modellbildung-erweiterungen) | 25 |
 | [Digitalisierung, MBSE, Software](#digitalisierung-mbse-software) | 17 |
 | [Anwendungen und Fallstudien](#anwendungen-und-fallstudien) | 11 |
 | [Empirische Evaluation](#empirische-evaluation) | 13 |
@@ -50,6 +50,7 @@ Konfidenz: **hoch** = bibliografische Angaben über Verlags- oder Repository-Ein
 | A | `Troester2026` | 2026 | Tröster, P. M.; Pfaff, B.; Albers, A. | Integrating engineering mechanics into the contact and channel approach for targeted embodiment synthesis | KIT Scientific Working Papers 272, Karlsruhe | [DOI](https://doi.org/10.5445/IR/1000193106) | PDF im Repo | hoch |
 | B | `Albers2005a` | 2005 | Albers, A.; Burkardt, N.; Ohmer, M. | Approaches for the synthesis of technical systems within the Contact and Channel Model C&CM | Proceedings ICED 05, Melbourne, DS 35 | [DOI](https://doi.org/10.5445/IR/1000010605) | PDF lokal (Wissen/C&C2-Ansatz) | hoch |
 | B | `Albers2008d` | 2008 | Albers, A. et al. | Support of design engineering activity through C&CM: temporal decomposition of design problems | Proceedings TMCE 2008, Izmir | keine | Angaben prüfen | mittel |
+| B | `Matthiesen2012` | 2012 | Matthiesen, S.; Ruckpaul, A. | New insights on the contact & channel approach: modelling of systems with several logical states | Proceedings DESIGN 2012, 12th International Design Conference, Dubrovnik | [Link](https://www.designsociety.org/publication/32070) | KIT-Zugang nötig | mittel |
 | B | `Matthiesen2017b` | 2017 | Matthiesen, S.; Hölz, K.; Grauberger, P. | Systemverständnis durch Analysemethoden | 28. DfX-Symposium 2017, Bamberg, S. 263-274 | [Link](https://www.designsociety.org/publication/39998) | KIT-Zugang nötig | hoch |
 | B | `Matthiesen2018b` | 2018 | Matthiesen, S. et al. | From reality to simulation: using the C&C²-approach to support the modelling of a dynamic system | Procedia CIRP 70, S. 475-480 | [DOI](https://doi.org/10.1016/j.procir.2018.03.039) | frei verfügbar | mittel |
 | B | `Matthiesen2019a` | 2019 | Matthiesen, S. et al. | Product models in embodiment design: an investigation of challenges and opportunities | SN Applied Sciences 1, Article 1078 | [DOI](https://doi.org/10.1007/s42452-019-1115-y) | frei verfügbar | hoch |
